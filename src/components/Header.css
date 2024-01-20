@@ -48,3 +48,10 @@
   color: rgb(37, 224, 224);
   text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 818px) {
+  #header #name {
+    display: flex;
+    margin-top: 100px;
+  }
+}

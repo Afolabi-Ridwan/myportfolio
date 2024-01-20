@@ -34,6 +34,12 @@
 } */
 
 @media (max-width: 818px) {
+
+  #menu {
+    height: 100vh;
+    margin-top: 10px;
+  }
+
   #menu #container {
     display: block;
     margin-top: 50px;
