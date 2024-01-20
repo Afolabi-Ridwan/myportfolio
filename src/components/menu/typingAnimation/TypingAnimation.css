@@ -1,0 +1,10 @@
+#currentStatement {
+  font-size: 25px;
+  animation: typing 3s steps(22);
+  color: rgb(37, 224, 224);
+}
+
+#cursor {
+  border-right: 2px solid rgb(105, 93, 172);
+  padding-top: -20px;
+}

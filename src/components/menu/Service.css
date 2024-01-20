@@ -1,0 +1,193 @@
+#service {
+  background-color: rgb(26, 23, 209);
+  width: 46vw;
+  border-radius: 60px;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  margin-right: 7px;
+  color: white;
+  font-weight: 500;
+  padding: 0 30px;
+  cursor: pointer;
+  transition: ease-in 0.3s;
+  margin-bottom: 10px;
+}
+
+#service p {
+  position: absolute;
+  bottom: 20px;
+}
+
+.marquee span {
+  font-size: 30px;
+}
+
+.marquee {
+  padding-right: 0;
+  width: 500px;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  text-align: center;
+  white-space: nowrap;
+  min-width: 290%;
+  height: 100%;
+  line-height: 140px;
+  font-size: 60px;
+  animation: marquee 16s linear infinite;
+  font-weight: 600;
+}
+
+.marquee2 span {
+  animation-delay: 5s;
+  margin-left: 100%;
+}
+
+.marquee3 span {
+  /* padding-left: -140%; */
+  animation-delay: 10s;
+}
+
+.marquee4 span {
+  animation-delay: 10s;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+@media (min-width: 1119px) {
+  .marquee {
+    width: 41vw;
+  }
+}
+@media (max-width: 1192px) {
+  .marquee {
+    width: 485px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .marquee {
+    width: 460px;
+  }
+
+  .marquee span {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 1118px) {
+  .marquee {
+    width: 440px;
+  }
+
+  .marquee span {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .marquee {
+    width: 38vw;
+  }
+
+  .marquee span {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 818px) {
+  #service {
+    width: 95vw;
+    margin-right: 0;
+  }
+
+  .marquee {
+    width: 85vw;
+  }
+
+  .marquee span {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 560px) {
+  .marquee {
+    width: 83vw;
+  }
+
+  .marquee span {
+    font-size: 52px;
+  }
+}
+
+@media (max-width: 500px) {
+  .marquee {
+    width: 80vw;
+  }
+
+  .marquee span {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 450px) {
+  .marquee {
+    width: 80vw;
+  }
+
+  .marquee span {
+    font-size: 38px;
+  }
+
+  #service {
+    height: 500px;
+  }
+}
+
+@media (max-width: 391px) {
+  .marquee span {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 375px) {
+  .marquee {
+    width: 80vw;
+  }
+
+  .marquee span {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 450px) {
+  #service:hover {
+    width: 92vw;
+    height: 325px;
+    margin-left: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 818px) {
+  #service:hover {
+    width: 45vw;
+    height: 325px;
+    margin-right: 15px;
+    margin-top: 7px;
+  }
+}
