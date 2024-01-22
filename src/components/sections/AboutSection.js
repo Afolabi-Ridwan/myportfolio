@@ -1,5 +1,5 @@
 import "./AboutSection.css";
-import myResume from "./images/Ridwan's Resume (2).pdf";
+import myResume from "./images/Ridwan's Resume.pdf";
 
 const AboutSection = () => {
   return (
