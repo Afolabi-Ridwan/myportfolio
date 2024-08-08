@@ -71,6 +71,11 @@
   font-size: 14px;
 }
 
+.projectTab.spotifyMuzikTab{
+  background-color: rgb(169, 102, 0);
+  color: rgb(231, 220, 204);
+}
+
 .projectTab.weatherAppTab {
   background-color: rgb(134, 184, 180);
   color: rgb(2, 44, 41);

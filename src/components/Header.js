@@ -16,23 +16,9 @@ function Header() {
             <span id="idwan"> idwan </span>
           </p>
         </div>
-        {/* <div>
-        <ul id="menu">
-          <li> Home </li>
-          <li> About </li>
-          <li> Projects </li>
-          <li> Contact </li>
-        </ul>
-      </div> */}
-      </div>
-      <div>
-        {/* <h1 id="myName"> Hi. I'm Ridwan </h1> */}
-        {/* <TypingAnimation /> */}
       </div>
     </div>
   );
 }
 
 export default Header;
-
-

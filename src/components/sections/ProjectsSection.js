@@ -14,11 +14,45 @@ const ProjectsSection = () => {
   return (
     <div id="projectsSection">
       <div id="container">
-        <h1 className="sectionHeader">
-          {" "}
-          Projects{" "}
-        </h1>
+        <h1 className="sectionHeader"> Projects </h1>
         <div className="projectTabs">
+          <div className="projectTab spotifyMuzikTab" data-aos="fade-right">
+            <h1> SPOTIFY MUZIK</h1>
+
+            <p>A music streaming site built using Spotify API</p>
+
+            <ul>
+              <li>
+                <a
+                  href="https://spotifymuzik.onrender.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <i>
+                    {" "}
+                    <FontAwesomeIcon icon={faEye} />
+                  </i>{" "}
+                  Live{" "}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Afolabi-Ridwan/SpotifyMuzik"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <i>
+                    {" "}
+                    <FontAwesomeIcon icon={faCodeBranch} />
+                  </i>{" "}
+                  Code{" "}
+                </a>
+              </li>
+            </ul>
+          </div>
+
           <div className="projectTab gadgetStoreTab" data-aos="fade-right">
             <h1> GADGET</h1>
 
@@ -46,7 +80,7 @@ const ProjectsSection = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/Afolabi-Ridwan/Babz-Project"
+                  href="https://github.com/Afolabi-Ridwan/gadget"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -60,7 +94,9 @@ const ProjectsSection = () => {
               </li>
             </ul>
           </div>
+        </div>
 
+        <div className="projectTabs">
           <div className="projectTab weatherAppTab" data-aos="fade-right">
             <h1> Weather App</h1>
 
@@ -100,9 +136,7 @@ const ProjectsSection = () => {
               </li>
             </ul>
           </div>
-        </div>
 
-        <div className="projectTabs">
           <div
             className="projectTab expenseCalculatorTab"
             data-aos="fade-right"
@@ -147,6 +181,9 @@ const ProjectsSection = () => {
               </li>
             </ul>
           </div>
+        </div>
+
+        <div className="projectTabs">
           <div className="projectTab colorGameTab" data-aos="fade-right">
             <h1> Color Game</h1>
 
@@ -188,13 +225,14 @@ const ProjectsSection = () => {
               </li>
             </ul>
           </div>
-        </div>
 
-        <div className="projectTabs">
           <div className="projectTab manageAppTab" data-aos="fade-right">
             <h1> Restho </h1>
 
-            <p>A resturant web page where you can check their menu and make your order</p>
+            <p>
+              A resturant web page where you can check their menu and make your
+              order
+            </p>
 
             <ul>
               <li>
@@ -228,7 +266,9 @@ const ProjectsSection = () => {
               </li>
             </ul>
           </div>
+        </div>
 
+        <div className="projectTabs">
           <div className="projectTab expenseTrackerTab" data-aos="fade-right">
             <h1> Expense Tracker</h1>
 
