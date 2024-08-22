@@ -97,7 +97,7 @@ const ProjectsSection = () => {
         </div>
 
         <div className="projectTabs">
-          <div className="projectTab weatherAppTab" data-aos="fade-right">
+          {/* <div className="projectTab weatherAppTab" data-aos="fade-right">
             <h1> Weather App</h1>
 
             <p>
@@ -123,6 +123,47 @@ const ProjectsSection = () => {
               <li>
                 <a
                   href="https://github.com/Afolabi-Ridwan/WeatherApp"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <i>
+                    {" "}
+                    <FontAwesomeIcon icon={faCodeBranch} />
+                  </i>{" "}
+                  Code{" "}
+                </a>
+              </li>
+            </ul>
+          </div> */}
+
+<div className="projectTab manageAppTab" data-aos="fade-right">
+            <h1> Restho </h1>
+
+            <p>
+              A resturant web page where you can check their menu and make your
+              order
+            </p>
+
+            <ul>
+              <li>
+                <a
+                  href="https://restho.onrender.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <i>
+                    {" "}
+                    <FontAwesomeIcon icon={faEye} />
+                  </i>{" "}
+                  Live{" "}
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://github.com/Afolabi-Ridwan/manage"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -183,7 +224,7 @@ const ProjectsSection = () => {
           </div>
         </div>
 
-        <div className="projectTabs">
+        {/* <div className="projectTabs">
           <div className="projectTab colorGameTab" data-aos="fade-right">
             <h1> Color Game</h1>
 
@@ -224,51 +265,11 @@ const ProjectsSection = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
-          <div className="projectTab manageAppTab" data-aos="fade-right">
-            <h1> Restho </h1>
+          
 
-            <p>
-              A resturant web page where you can check their menu and make your
-              order
-            </p>
-
-            <ul>
-              <li>
-                <a
-                  href="https://restho.onrender.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {" "}
-                  <i>
-                    {" "}
-                    <FontAwesomeIcon icon={faEye} />
-                  </i>{" "}
-                  Live{" "}
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="https://github.com/Afolabi-Ridwan/manage"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {" "}
-                  <i>
-                    {" "}
-                    <FontAwesomeIcon icon={faCodeBranch} />
-                  </i>{" "}
-                  Code{" "}
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="projectTabs">
+        {/* <div className="projectTabs">
           <div className="projectTab expenseTrackerTab" data-aos="fade-right">
             <h1> Expense Tracker</h1>
 
@@ -309,7 +310,7 @@ const ProjectsSection = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
